@@ -1,0 +1,316 @@
+{
+  "eventos": [
+    {
+      "evento": "102",
+      "quantidade": 3879,
+      "descricao": "102 - Inscrição dos demais estabelecimentos"
+    },
+    {
+      "evento": "517",
+      "quantidade": 2338,
+      "descricao": "517 - Pedido de baixa"
+    },
+    {
+      "evento": "211",
+      "quantidade": 1386,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município"
+    },
+    {
+      "evento": "244",
+      "quantidade": 1350,
+      "descricao": "244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "evento": "209",
+      "quantidade": 214,
+      "descricao": "209 - Alteração de endereço entre municípios dentro do mesmo estado"
+    },
+    {
+      "evento": "221",
+      "quantidade": 176,
+      "descricao": "221 - Alteração do título do estabelecimento (nome de fantasia)"
+    },
+    {
+      "evento": "210",
+      "quantidade": 62,
+      "descricao": "210 - Alteração de endereço entre estados"
+    },
+    {
+      "evento": "248",
+      "quantidade": 56,
+      "descricao": "248 - Alteração do tipo de unidade"
+    },
+    {
+      "evento": "249",
+      "quantidade": 47,
+      "descricao": "249 - Alteração da forma de atuação"
+    },
+    {
+      "evento": "214",
+      "quantidade": 36,
+      "descricao": "214 - Alteração de telefone (DDD/telefone)"
+    },
+    {
+      "evento": "218",
+      "quantidade": 36,
+      "descricao": "218 - Alteração de correio eletrônico"
+    },
+    {
+      "evento": "232",
+      "quantidade": 11,
+      "descricao": "232 - Alteração do contabilista ou da empresa de contabilidade"
+    },
+    {
+      "evento": "412",
+      "quantidade": 10,
+      "descricao": "412 - Interrupção temporária de atividades"
+    },
+    {
+      "evento": "241",
+      "quantidade": 5,
+      "descricao": "241 - Equiparação, por opção, a estabelecimento industrial"
+    },
+    {
+      "evento": "413",
+      "quantidade": 2,
+      "descricao": "413 - Reinício das atividades interrompidas temporariamente"
+    },
+    {
+      "evento": "216",
+      "quantidade": 1,
+      "descricao": "216 - Alteração de fax (DDD/fax)"
+    },
+    {
+      "evento": "219",
+      "quantidade": 1,
+      "descricao": "219 - Exclusão de correio eletrônico"
+    },
+    {
+      "evento": "415",
+      "quantidade": 1,
+      "descricao": "415 - Restabelecimento de Inscrição de Filial"
+    }
+  ],
+  "combinacoes": [
+    {
+      "combinacao": "211,244",
+      "quantidade": 334,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "211,221,244",
+      "quantidade": 59,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 221 - Alteração do título do estabelecimento (nome de fantasia) e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "211,221",
+      "quantidade": 54,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 221 - Alteração do título do estabelecimento (nome de fantasia)"
+    },
+    {
+      "combinacao": "209,244",
+      "quantidade": 36,
+      "descricao": "209 - Alteração de endereço entre municípios dentro do mesmo estado e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "221,244",
+      "quantidade": 28,
+      "descricao": "221 - Alteração do título do estabelecimento (nome de fantasia) e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "214,218,221,244",
+      "quantidade": 19,
+      "descricao": "214 - Alteração de telefone (DDD/telefone) e 218 - Alteração de correio eletrônico e 221 - Alteração do título do estabelecimento (nome de fantasia) e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "210,244",
+      "quantidade": 13,
+      "descricao": "210 - Alteração de endereço entre estados e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "214,218,244",
+      "quantidade": 13,
+      "descricao": "214 - Alteração de telefone (DDD/telefone) e 218 - Alteração de correio eletrônico e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "211,244,248,249",
+      "quantidade": 8,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 244 - Alteração de atividades econômicas (principal e secundárias) e 248 - Alteração do tipo de unidade e 249 - Alteração da forma de atuação"
+    },
+    {
+      "combinacao": "244,248,249",
+      "quantidade": 6,
+      "descricao": "244 - Alteração de atividades econômicas (principal e secundárias) e 248 - Alteração do tipo de unidade e 249 - Alteração da forma de atuação"
+    },
+    {
+      "combinacao": "211,248,249",
+      "quantidade": 6,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 248 - Alteração do tipo de unidade e 249 - Alteração da forma de atuação"
+    },
+    {
+      "combinacao": "211,248",
+      "quantidade": 6,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 248 - Alteração do tipo de unidade"
+    },
+    {
+      "combinacao": "211,221,248,249",
+      "quantidade": 6,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 221 - Alteração do título do estabelecimento (nome de fantasia) e 248 - Alteração do tipo de unidade e 249 - Alteração da forma de atuação"
+    },
+    {
+      "combinacao": "211,249",
+      "quantidade": 5,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 249 - Alteração da forma de atuação"
+    },
+    {
+      "combinacao": "102,241",
+      "quantidade": 5,
+      "descricao": "102 - Inscrição dos demais estabelecimentos e 241 - Equiparação, por opção, a estabelecimento industrial"
+    },
+    {
+      "combinacao": "209,248",
+      "quantidade": 5,
+      "descricao": "209 - Alteração de endereço entre municípios dentro do mesmo estado e 248 - Alteração do tipo de unidade"
+    },
+    {
+      "combinacao": "211,244,249",
+      "quantidade": 4,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 244 - Alteração de atividades econômicas (principal e secundárias) e 249 - Alteração da forma de atuação"
+    },
+    {
+      "combinacao": "211,244,248",
+      "quantidade": 4,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 244 - Alteração de atividades econômicas (principal e secundárias) e 248 - Alteração do tipo de unidade"
+    },
+    {
+      "combinacao": "209,244,248,249",
+      "quantidade": 3,
+      "descricao": "209 - Alteração de endereço entre municípios dentro do mesmo estado e 244 - Alteração de atividades econômicas (principal e secundárias) e 248 - Alteração do tipo de unidade e 249 - Alteração da forma de atuação"
+    },
+    {
+      "combinacao": "244,248",
+      "quantidade": 3,
+      "descricao": "244 - Alteração de atividades econômicas (principal e secundárias) e 248 - Alteração do tipo de unidade"
+    },
+    {
+      "combinacao": "209,249",
+      "quantidade": 3,
+      "descricao": "209 - Alteração de endereço entre municípios dentro do mesmo estado e 249 - Alteração da forma de atuação"
+    },
+    {
+      "combinacao": "211,232,244,248",
+      "quantidade": 2,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 232 - Alteração do contabilista ou da empresa de contabilidade e 244 - Alteração de atividades econômicas (principal e secundárias) e 248 - Alteração do tipo de unidade"
+    },
+    {
+      "combinacao": "244,249",
+      "quantidade": 2,
+      "descricao": "244 - Alteração de atividades econômicas (principal e secundárias) e 249 - Alteração da forma de atuação"
+    },
+    {
+      "combinacao": "211,232,244",
+      "quantidade": 2,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 232 - Alteração do contabilista ou da empresa de contabilidade e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "218,244",
+      "quantidade": 2,
+      "descricao": "218 - Alteração de correio eletrônico e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "211,232",
+      "quantidade": 2,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 232 - Alteração do contabilista ou da empresa de contabilidade"
+    },
+    {
+      "combinacao": "210,221",
+      "quantidade": 2,
+      "descricao": "210 - Alteração de endereço entre estados e 221 - Alteração do título do estabelecimento (nome de fantasia)"
+    },
+    {
+      "combinacao": "209,221",
+      "quantidade": 2,
+      "descricao": "209 - Alteração de endereço entre municípios dentro do mesmo estado e 221 - Alteração do título do estabelecimento (nome de fantasia)"
+    },
+    {
+      "combinacao": "209,248,249",
+      "quantidade": 2,
+      "descricao": "209 - Alteração de endereço entre municípios dentro do mesmo estado e 248 - Alteração do tipo de unidade e 249 - Alteração da forma de atuação"
+    },
+    {
+      "combinacao": "232,244,248,249",
+      "quantidade": 1,
+      "descricao": "232 - Alteração do contabilista ou da empresa de contabilidade e 244 - Alteração de atividades econômicas (principal e secundárias) e 248 - Alteração do tipo de unidade e 249 - Alteração da forma de atuação"
+    },
+    {
+      "combinacao": "214,216,218,221,244",
+      "quantidade": 1,
+      "descricao": "214 - Alteração de telefone (DDD/telefone) e 216 - Alteração de fax (DDD/fax) e 218 - Alteração de correio eletrônico e 221 - Alteração do título do estabelecimento (nome de fantasia) e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "232,244",
+      "quantidade": 1,
+      "descricao": "232 - Alteração do contabilista ou da empresa de contabilidade e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "214,219,244,248",
+      "quantidade": 1,
+      "descricao": "214 - Alteração de telefone (DDD/telefone) e 219 - Exclusão de correio eletrônico e 244 - Alteração de atividades econômicas (principal e secundárias) e 248 - Alteração do tipo de unidade"
+    },
+    {
+      "combinacao": "209,232",
+      "quantidade": 1,
+      "descricao": "209 - Alteração de endereço entre municípios dentro do mesmo estado e 232 - Alteração do contabilista ou da empresa de contabilidade"
+    },
+    {
+      "combinacao": "210,244,248",
+      "quantidade": 1,
+      "descricao": "210 - Alteração de endereço entre estados e 244 - Alteração de atividades econômicas (principal e secundárias) e 248 - Alteração do tipo de unidade"
+    },
+    {
+      "combinacao": "221,244,249",
+      "quantidade": 1,
+      "descricao": "221 - Alteração do título do estabelecimento (nome de fantasia) e 244 - Alteração de atividades econômicas (principal e secundárias) e 249 - Alteração da forma de atuação"
+    },
+    {
+      "combinacao": "211,221,248",
+      "quantidade": 1,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 221 - Alteração do título do estabelecimento (nome de fantasia) e 248 - Alteração do tipo de unidade"
+    },
+    {
+      "combinacao": "209,415",
+      "quantidade": 1,
+      "descricao": "209 - Alteração de endereço entre municípios dentro do mesmo estado e 415 - Restabelecimento de Inscrição de Filial"
+    },
+    {
+      "combinacao": "211,221,232,244",
+      "quantidade": 1,
+      "descricao": "211 - Alteração de endereço dentro do mesmo município e 221 - Alteração do título do estabelecimento (nome de fantasia) e 232 - Alteração do contabilista ou da empresa de contabilidade e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "210,248",
+      "quantidade": 1,
+      "descricao": "210 - Alteração de endereço entre estados e 248 - Alteração do tipo de unidade"
+    },
+    {
+      "combinacao": "210,221,244",
+      "quantidade": 1,
+      "descricao": "210 - Alteração de endereço entre estados e 221 - Alteração do título do estabelecimento (nome de fantasia) e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "209,221,244",
+      "quantidade": 1,
+      "descricao": "209 - Alteração de endereço entre municípios dentro do mesmo estado e 221 - Alteração do título do estabelecimento (nome de fantasia) e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "214,218,232,244",
+      "quantidade": 1,
+      "descricao": "214 - Alteração de telefone (DDD/telefone) e 218 - Alteração de correio eletrônico e 232 - Alteração do contabilista ou da empresa de contabilidade e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    },
+    {
+      "combinacao": "214,244",
+      "quantidade": 1,
+      "descricao": "214 - Alteração de telefone (DDD/telefone) e 244 - Alteração de atividades econômicas (principal e secundárias)"
+    }
+  ]
+}
